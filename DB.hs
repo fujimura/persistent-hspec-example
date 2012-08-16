@@ -1,6 +1,6 @@
 {-# LANGUAGE QuasiQuotes, TemplateHaskell, TypeSynonymInstances #-}
 {-# LANGUAGE TypeFamilies, OverloadedStrings #-}
-{-# LANGUAGE GADTs, FlexibleContexts #-}
+{-# LANGUAGE GADTs, FlexibleContexts, EmptyDataDecls #-}
 module DB where
 
 import Import
