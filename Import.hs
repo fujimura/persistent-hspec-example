@@ -1,10 +1,10 @@
 module Import
   (
-  module Control.Monad.Trans,
-  module Database.Persist,
-  module Database.Persist.Sqlite
+  module X,
   ) where
 
-import Control.Monad.Trans
-import Database.Persist
-import Database.Persist.Sqlite
+import Data.Maybe as X
+import Control.Monad.Trans as X
+import Control.Applicative as X
+import Database.Persist as X
+import Database.Persist.Sqlite as X
